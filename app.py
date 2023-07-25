@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import re
 import nltk
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
