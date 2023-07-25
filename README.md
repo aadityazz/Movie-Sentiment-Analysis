@@ -10,7 +10,6 @@ This is a web application built with Flask that performs sentiment analysis on m
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Getting Started
 
@@ -18,12 +17,10 @@ To run this application locally, follow the instructions in the [Installation](#
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
-   ```bash
    git clone https://github.com/your-username/flask-movie-sentiment-analysis.git
    cd flask-movie-sentiment-analysis
-
 
 Open your web browser and navigate to `http://localhost:5000` to access the application.
 
