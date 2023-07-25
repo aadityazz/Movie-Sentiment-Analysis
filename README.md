@@ -1,6 +1,5 @@
 ﻿# Movie-Sentiment-Analysis
 
-# Flask Movie Sentiment Analysis Web App
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
 
@@ -48,4 +47,6 @@ The movie reviews dataset used for training the machine learning model is availa
 
 
 ![image](https://github.com/aadityazz/Movie-Sentiment-Analysis/assets/67819043/bf13f525-2ef9-4589-abb9-835df272e369)
+![image](https://github.com/aadityazz/Movie-Sentiment-Analysis/assets/67819043/f48d1124-922b-4979-b185-e0b2f5a6d4c7)
+
 
