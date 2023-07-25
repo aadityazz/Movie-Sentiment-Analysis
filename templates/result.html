@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Review Sentiment Analysis Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='result.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Review Sentiment Analysis Result</h1>
+        <div class="review">
+            <p><strong>Your Movie Review:</strong></p>
+            <p>{{ review }}</p>
+        </div>
+        <div class="result">
+            <p><strong>Sentiment Prediction:</strong></p>
+            <p>{{ result }}</p>
+        </div>
+    </div>
+</body>
+</html>
