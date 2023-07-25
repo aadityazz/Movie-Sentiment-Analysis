@@ -24,3 +24,28 @@ To run this application locally, follow the instructions in the [Installation](#
    ```bash
    git clone https://github.com/your-username/flask-movie-sentiment-analysis.git
    cd flask-movie-sentiment-analysis
+
+
+Open your web browser and navigate to `http://localhost:5000` to access the application.
+
+## How It Works
+
+The application uses a machine learning model trained on a dataset of movie reviews to perform sentiment analysis. The model is a Random Forest classifier that uses TF-IDF vectorization to convert the review text into numerical features.
+
+When a user enters a movie review, the application preprocesses the text, tokenizes it, and removes stopwords. Then, the TF-IDF vectorizer transforms the preprocessed text into numerical features. Finally, the model predicts the sentiment of the review and displays the result on the web page.
+
+## Dataset
+
+The movie reviews dataset used for training the machine learning model is available in the `movie_reviews.csv` file. The dataset contains two columns: `review` (text of the movie review) and `sentiment` (label indicating positive or negative sentiment).
+
+## Technologies Used
+
+- Python
+- Flask
+- NLTK (Natural Language Toolkit)
+- Pandas
+- Scikit-learn
+
+
+![image](https://github.com/aadityazz/Movie-Sentiment-Analysis/assets/67819043/bf13f525-2ef9-4589-abb9-835df272e369)
+
